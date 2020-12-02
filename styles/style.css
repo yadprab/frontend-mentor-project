@@ -372,6 +372,7 @@ footer a {
   .container .card .img--section img {
     border-top-right-radius: 0;
     border-bottom-left-radius: 5px;
+    height: 100%;
   }
   .container .card .info {
     display: -ms-grid;
@@ -379,10 +380,16 @@ footer a {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
+  .container .card .info h1 {
+    font-size: 1.3rem;
+  }
   .container .card .info .footer--section {
     margin-top: 0;
     width: 100%;
     place-self: end;
+  }
+  .container .card .info .footer--section .profile--section h2 {
+    font-size: 0.8rem;
   }
   .overlay {
     left: auto;

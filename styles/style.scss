@@ -279,16 +279,26 @@ footer{
         img{
           border-top-right-radius: 0;
           border-bottom-left-radius: 5px;
+          height: 100%;
         }
+       
       }
       .info{
        display: grid;
        grid-template-columns: repeat(1, 1fr);
-
+          h1 {
+            font-size: 1.3rem;
+          }
         .footer--section{
           margin-top: 0;
           width: 100%;
          place-self: end;
+
+         .profile--section{
+           h2{
+             font-size: 0.8rem;
+           }
+         }
         }
       
       }
