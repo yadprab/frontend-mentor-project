@@ -1,10 +1,10 @@
 
 const cardFn = ()=>{
-  const button = document.qureySelector('#social--media');
+  const button = document.querySelector('#social--media');
   
-const showFn = ()=>{
+const showFn = (e)=>{
   e.preventDefault();
-  const overlay = document.qureySelector('.overlay');
+  const overlay = document.querySelector('.overlay');
   
   
   overlay.classList.toggle('hide')
